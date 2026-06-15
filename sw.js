@@ -1,10 +1,10 @@
 const CACHE_NAME = "ar-connect-cache-v1";
 const urlsToCache = [
-  "/Online-Store/",
-  "/Online-Store/index.html",
-  "/Online-Store/manifest.json",
-  "/Online-Store/icon-192.png",
-  "/Online-Store/icon-512.png"
+  "/",
+  "/index.html",
+  "/manifest.json",
+  "/icon-192.png",
+  "/icon-512.png"
 ];
 
 self.addEventListener("install", (event) => {
